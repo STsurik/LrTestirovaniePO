@@ -1,0 +1,16 @@
+.all{
+  
+        background-color:rgb(1, 155, 155) ;
+        color: bisque;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      line-height: normal;
+     
+  }
+  ul {  display:inline-block;
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+  }
+  .r{
+    text-align: right;
+  }

@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(2, 92, 92);
+    color: rgb(252, 230, 204);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: normal;
+}
+ul {  display:inline-block;
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+  }
+ .logo {
+
+  position: absolute;
+  top: -3px;
+ }
+.name {
+  text-align:start;
+
+position:absolute;
+top: 0px;
+left: 170px;
+}
+.cont{
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    left: 850px;
+  }  
+  .head{
+    background-color: rgb(2, 92, 92);
+    color: rgb(252, 230, 204);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: normal;    
+}

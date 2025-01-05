@@ -1,0 +1,130 @@
+/*html{
+    background-color: rgb(3, 126, 126);
+    color: rgba(0, 19, 59, 0.904);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: normal;
+    
+}*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: 16px / 1.4 sans-serif;
+    background-color: rgb(3, 126, 126);
+    color:rgb(252, 230, 204);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: normal;
+  }
+  
+  .wrap {
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+  }
+  .items-wrap {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 20px;
+  }
+  .items-wrap:before,
+  .items-wrap:after {
+    content: "";
+    height: 100%;
+    top: 0;
+    width: 20%;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+  }
+  .items-wrap:before {
+    left: 0;
+    background: linear-gradient(
+      90deg,
+      rgb(3, 126, 126) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  .items-wrap:after {
+    right: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgb(3, 126, 126) 100%
+    );
+  }
+  .items {
+    flex-shrink: 0;
+    display: flex;
+    gap: 20px;
+    counter-reset: item;
+    justify-content: space-around;
+    min-width: 100%;
+  }
+  .item {
+    
+    flex: 0 0 auto;
+    width: 850px;
+    height: 50px;
+    
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:  rgb(252, 230, 204);
+    margin: 10px 0;
+    transition: all 0.1s ease-in-out;
+  }
+ /* .item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }*/
+  
+  /*.item:before {
+    content: counter(item);
+  }*/
+  
+  .marquee {
+    animation: scroll 30s linear infinite;
+  }
+  .reverce {
+    animation-direction: reverse;
+  }
+  /*.items-wrap:hover .marquee {
+    animation-play-state: paused;
+  }
+  */
+  .perfscan {
+    margin: 20px 0;
+    text-align: center;
+    bottom: 0;
+    background: #fff;
+    padding: 5px;
+  }
+  .perfscan hr {
+    border: solid #999;
+    border-width: 1px 0 0 0;
+    max-width: 50%;
+    margin: 0 auto 20px;
+  }
+  .perfscan a {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 20px));
+    }
+  }
+
+  img{
+    border-radius: 10px;
+}
