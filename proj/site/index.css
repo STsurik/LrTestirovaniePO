@@ -1,0 +1,48 @@
+* {
+    background-color:darkcyan; 
+}
+.menu {
+    background-color:rgb(1, 155, 155) ;
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: normal;
+  
+  display:inline-block;
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+  padding:  5px 15px;
+
+    }
+
+ul {  display:inline-block;
+        list-style: none; /*убираем маркеры списка*/
+        margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+        padding-left: 0; /*убираем левый отступ, равный 40px*/
+      }
+      r{
+        text-align: right;
+      }
+.name {
+
+  position: relative;
+  top: -20px;
+  left: 50px;
+}
+      .cont{
+  text-align: right;
+  position: relative;
+  top: -170px;
+  left: -50px;
+}  
+.m1 {
+  color: bisque;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: normal;
+  
+  display:inline-block;
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+  padding:  5px 15px;
+}
